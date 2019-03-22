@@ -13,7 +13,7 @@ from devito.finite_differences import *  # noqa
 from devito.logger import error, warning, info, set_log_level  # noqa
 from devito.parameters import *  # noqa
 from devito.tools import *  # noqa
-from devito.types import NODE, CELL, Buffer, SubDomain  # noqa
+from devito.types import NODE, CELL, Buffer, SubDomain, SubDomains  # noqa
 from devito.types.dimension import *  # noqa
 
 from devito.compiler import compiler_registry
